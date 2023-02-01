@@ -1,0 +1,6 @@
+a,b=map(int,input().split())
+n=list(map(int,input().split()))
+m=list(map(int,input().split()))
+a1=set(n)
+a2=set(m)
+print(len(a1^a2))
